@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webion.Asparagus.Storage", "Webion.Asparagus.Storage\Webion.Asparagus.Storage.csproj", "{1A9EE16D-CBED-45F9-9FE5-66D25D71A5FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webion.Asparagus.Api", "Webion.Asparagus.Api\Webion.Asparagus.Api.csproj", "{5DEE21B6-7695-40AA-89DB-65CA539863E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webion.Asparagus.Contracts", "Webion.Asparagus.Contracts\Webion.Asparagus.Contracts.csproj", "{BFB577CA-A342-4710-B626-F7C1F88463E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webion.Asparagus.Http", "Webion.Asparagus.Http\Webion.Asparagus.Http.csproj", "{205418AE-E566-466A-947F-29C2DDC2A830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webion.Asparagus.Core", "Webion.Asparagus.Core\Webion.Asparagus.Core.csproj", "{24B30D47-C2F6-4D4C-B9EA-204DD23D5FDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webion.Asparagus.Storage.FileSystem", "Webion.Asparagus.Storage.FileSystem\Webion.Asparagus.Storage.FileSystem.csproj", "{D0CBC618-488A-4751-B06E-F789E307BC3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A9EE16D-CBED-45F9-9FE5-66D25D71A5FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9EE16D-CBED-45F9-9FE5-66D25D71A5FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9EE16D-CBED-45F9-9FE5-66D25D71A5FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9EE16D-CBED-45F9-9FE5-66D25D71A5FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DEE21B6-7695-40AA-89DB-65CA539863E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DEE21B6-7695-40AA-89DB-65CA539863E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DEE21B6-7695-40AA-89DB-65CA539863E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DEE21B6-7695-40AA-89DB-65CA539863E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB577CA-A342-4710-B626-F7C1F88463E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB577CA-A342-4710-B626-F7C1F88463E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB577CA-A342-4710-B626-F7C1F88463E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB577CA-A342-4710-B626-F7C1F88463E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205418AE-E566-466A-947F-29C2DDC2A830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205418AE-E566-466A-947F-29C2DDC2A830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205418AE-E566-466A-947F-29C2DDC2A830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205418AE-E566-466A-947F-29C2DDC2A830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B30D47-C2F6-4D4C-B9EA-204DD23D5FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B30D47-C2F6-4D4C-B9EA-204DD23D5FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B30D47-C2F6-4D4C-B9EA-204DD23D5FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B30D47-C2F6-4D4C-B9EA-204DD23D5FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0CBC618-488A-4751-B06E-F789E307BC3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0CBC618-488A-4751-B06E-F789E307BC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0CBC618-488A-4751-B06E-F789E307BC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0CBC618-488A-4751-B06E-F789E307BC3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

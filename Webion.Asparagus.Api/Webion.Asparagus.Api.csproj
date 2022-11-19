@@ -6,4 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FastEndpoints" Version="5.4.1" />
+    <PackageReference Include="FastEndpoints.Swagger" Version="5.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Webion.Asparagus.Contracts\Webion.Asparagus.Contracts.csproj" />
+    <ProjectReference Include="..\Webion.Asparagus.Storage\Webion.Asparagus.Storage.csproj" />
+    <ProjectReference Include="..\Webion.Asparagus.Storage.FileSystem\Webion.Asparagus.Storage.FileSystem.csproj" />
+  </ItemGroup>
+
 </Project>
